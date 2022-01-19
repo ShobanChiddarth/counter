@@ -1,5 +1,6 @@
 # counter
 Simple python file that counts number of times it was run.
+
 This project is the base of another project [ONF](https://github.com/ShobanChiddarth/ONF)
 
 It counts and stores the value in a binary file 'counterfile.bin'
