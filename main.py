@@ -1,4 +1,4 @@
-import os, pickle, time
+import os, pickle
 # All the numbers are steps of '### Programming Logic used' in 'README.md'
 
 file=os.path.join(os.getcwd(), 'counterfile.bin') # The link to binary file where value is stored
@@ -12,12 +12,11 @@ else: # 2
     pickle.dump(count, counterfile)
 
 counterfile.close() # 3
-
 count+=1 # 4
-os.remove(file) # 5
+counterfile=open(counterfile.name, mode='rb+') # 5
+
 
 # 6
-counterfile=open(file, 'wb')
 pickle.dump(count, counterfile)
 
 counterfile.close() # 7
