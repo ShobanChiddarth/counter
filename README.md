@@ -34,5 +34,7 @@ This script is not a trivial piece of code. It provides a useful solution for co
 
 By providing a flexible framework, this script serves as a valuable starting point that can be easily adapted and customized to meet specific counting needs. Whether the count is stored in a file, spreadsheet cell, or a database table, the underlying algorithm remains consistent, allowing for seamless integration into different systems. Its versatility and simplicity make it a practical tool that can be readily copied and implemented, saving time and effort in developing counting functionality from scratch.Embrace the potential of this script to bring order and measurement to your applications, processes, and data!
 
-TL;DR
+<details>
+<summary>TL;DR</summary>
 This script can be used to count the occurrences of any event or action, not just the number of times a Python file has been run. The algorithm remains the same, whether the count is stored in a file, spreadsheet cell, or a database table. It serves as a convenient starting point that can be easily copied, pasted, and customized to suit your specific needs.
+</details>
