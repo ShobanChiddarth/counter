@@ -24,4 +24,3 @@ counterfile.close() # 7
 # 8
 print('This file counts number of times it was run')
 print('count =', count, end='') # `end` is simply useless
-input() # Just to freeze the file so that it doesn't close when opened
