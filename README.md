@@ -1,5 +1,7 @@
 # counter
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Tally_Counters.jpg" alt="Tally_Counter">
+
 This Python script is designed to count the number of times it has been executed and store the count in a file. The count is stored as an integer represented in bytes within the file `counterfile.bin`. Feel free to change it to a different path if you needed to store the count in a different file.
 
 
